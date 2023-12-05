@@ -1,0 +1,192 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bungou stray dogs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(function(){
+        let seasonsHidden = $('.seasons_hidden');
+        let Seasons = $('.seasons');
+        let charactersHidden = $('.characters_hidden');
+        let Characters = $('.characters');
+        let mangaHidden = $('.manga_hidden');
+        let Manga = $('.manga');
+        let bioHidden = $('.bio_hidden');
+        let People = $('.people');
+        let animeHidden = $('.anime_hidden');
+        let Anime = $('.anime')
+        
+        Seasons.on('click', function(){
+            seasonsHidden.css('display', 'flex');
+            charactersHidden.css('display', 'none');
+            mangaHidden.css('display', 'none');
+            bioHidden.css('display', 'none');
+            animeHidden.css('display', 'none');
+        });
+        Characters.on('click', function(){
+            charactersHidden.css('display', 'flex');
+            seasonsHidden.css('display', 'none');
+            mangaHidden.css('display', 'none');
+            bioHidden.css('display', 'none');
+            animeHidden.css('display', 'none');
+        });
+         Manga.on('click', function(){
+            mangaHidden.css('display', 'flex');
+            seasonsHidden.css('display', 'none');
+            charactersHidden.css('display', 'none');
+            bioHidden.css('display', 'none');
+            animeHidden.css('display', 'none');
+        });
+        People.on('click', function(){
+            bioHidden.css('display', 'flex');
+            seasonsHidden.css('display', 'none');
+            charactersHidden.css('display', 'none');
+            mangaHidden.css('display', 'none');
+            animeHidden.css('display', 'none');
+        });
+        Anime.on('click', function(){
+            animeHidden.css('display', 'flex');
+            seasonsHidden.css('display', 'none');
+            charactersHidden.css('display', 'none');
+            mangaHidden.css('display', 'none');
+            bioHidden.css('display', 'none');
+        });
+});
+    </script>
+  </head>
+  <body>
+    <div class="main_buttons">
+      <nav class="top">
+        <a href="#" class="seasons">Сезоны</a>
+        <a href="#" class="characters">Персонажи</a>
+        <a href="#" class="manga">Манга</a>
+        <a href="#" class="people">Писатели</a>
+        <a href="#" class="anime">Похожие</a>
+      </nav>
+    </div>
+    <div class = "info">
+      <div class ="seasons_hidden">
+        <a href ="https://a2.jutsu.tv/69-velikij-iz-brodjachih-psov.html">1 сезон</a>
+        <a href ="https://jam-club.org/944-velikij-iz-brodjachih-psov-2-sezon-o2.html">2 сезон</a>
+        <a href = "https://a2.jutsu.tv/417-velikij-iz-brodjachih-psov-3-sezon.html">3 сезон</a>
+        <a href = "https://studioband.online/3430-velikij-iz-brodjachih-psov-4-sezon.html">4 сезон</a>
+        <a href = "https://animeru.org/935-velikiy-iz-brodyachikh-psov-5-sezon.html">5 сезон</a>
+    </div>
+   <div class="characters_hidden">
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%90%D1%86%D1%83%D1%88%D0%B8_%D0%9D%D0%B0%D0%BA%D0%B0%D0%B4%D0%B6%D0%B8%D0%BC%D0%B0">Ацуши Накаджима</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9E%D1%81%D0%B0%D0%BC%D1%83_%D0%94%D0%B0%D0%B7%D0%B0%D0%B9">Осаму Дазай</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BF%D0%BF%D0%BE_%D0%9A%D1%83%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B0">Доппо Куникида</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%BD%D0%BF%D0%BE_%D0%AD%D0%B4%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0">Рампо Эдогава</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%90%D0%BA%D0%B8%D0%BA%D0%BE_%D0%99%D0%BE%D1%81%D0%B0%D0%BD%D0%BE">Акико Йосано</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%94%D0%B6%D1%83%D0%BD%D0%B8%D1%87%D0%B8%D1%80%D0%BE_%D0%A2%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D0%BA%D0%B8">Джуничиро Танизаки</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%BD%D0%B4%D0%B6%D0%B8_%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B0%D0%B2%D0%B0">Кенджи Миядзава</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9A%D1%91%D0%BA%D0%B0_%D0%98%D0%B7%D1%83%D0%BC%D0%B8">Кёка Изуми</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%AE%D0%BA%D0%B8%D1%87%D0%B8_%D0%A4%D1%83%D0%BA%D1%83%D0%B4%D0%B7%D0%B0%D0%B2%D0%B0">Юкичи Фукудзава</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%82%D0%B0%D0%B9_%D0%A2%D0%B0%D1%8F%D0%BC%D0%B0">Катай Таяма</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9E%D0%B3%D0%B0%D0%B9_%D0%9C%D0%BE%D1%80%D0%B8">Огай Мори</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%AD%D0%B9%D1%81">Эйс</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A7%D1%83%D1%8F_%D0%9D%D0%B0%D0%BA%D0%B0%D1%85%D0%B0%D1%80%D0%B0">Чуя Накахара</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9A%D0%BE%D1%91_%D0%9E%D0%B7%D0%B0%D0%BA%D0%B8">Коё Озаки</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BD%D0%BE%D1%81%D0%BA%D0%B5_%D0%90%D0%BA%D1%83%D1%82%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0">Рюноске Акутагава</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%98%D1%87%D0%B8%D1%91_%D0%A5%D0%B8%D0%B3%D1%83%D1%87%D0%B8">Ичиё Хигучи</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A0%D1%8C%D1%8E%D1%80%D0%BE_%D0%A5%D0%B8%D1%80%D0%BE%D1%86%D1%83">Рьюро Хироцу</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%93%D0%B8%D0%BD_%D0%90%D0%BA%D1%83%D1%82%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0">Гин Акутагава</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9C%D0%B8%D1%87%D0%B8%D0%B7%D1%83_%D0%A2%D0%B0%D1%87%D0%B8%D1%85%D0%B0%D1%80%D0%B0">Мичизу Тачихара</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%BA%D1%83%D0%BD%D0%BE%D1%81%D0%BA%D0%B5_%D0%9E%D0%B4%D0%B0">Сакуноске Ода</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%AD%D0%BB%D0%B8%D1%81">Элис</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9A%D1%8E%D1%81%D0%B0%D0%BA%D1%83_%D0%AE%D0%BC%D0%B5%D0%BD%D0%BE">Кюсаку Юмено</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%90%D0%BD%D0%B3%D0%BE_%D0%A1%D0%B0%D0%BA%D0%B0%D0%B3%D1%83%D1%87%D0%B8">Анго Сакагучи</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A4%D1%91%D0%B4%D0%BE%D1%80_%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9">Фёдор Достоевский</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD">Александр Пушкин</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C">Николай Гоголь</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%B3%D0%BC%D0%B0">Сигма</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%98%D0%B2%D0%B0%D0%BD_%D0%93%D0%BE%D0%BD%D1%87%D0%B0%D1%80%D0%BE%D0%B2">Иван Гончаров</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9E%D1%87%D0%B8_%D0%A4%D1%83%D0%BA%D1%83%D1%87%D0%B8">Очи Фукучи</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%80%D1%83%D0%BA%D0%BE_%D0%9E%D0%BE%D0%BA%D1%83%D1%80%D0%B0">Теруко Оокура</a>
+          <a href="https://bungostraydogs.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%B9%D0%B3%D0%B8%D0%BA%D1%83_%D0%94%D0%B7%D1%91%D0%BD%D0%BE">Сайгику Дзёно</a>
+          <a href="https://bungostraydogs.fandom.com/ru/wiki/%D0%A2%D1%8D%D1%82%D1%82%D0%B5_%D0%A1%D1%83%D1%8D%D1%85%D0%B8%D1%80%D0%BE">Тэтте Суэхиро</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%A4%D1%80%D1%8D%D0%BD%D1%81%D0%B8%D1%81_%D0%A1%D0%BA%D0%BE%D1%82%D1%82_%D0%9A%D0%B5%D0%B9_%D0%A4%D0%B8%D1%86%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%B4">Фрэнсис Фицжеральд</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%9B%D1%83%D0%B8%D0%B7%D0%B0_%D0%9C%D1%8D%D0%B9_%D0%9E%D0%BB%D0%BA%D0%BE%D1%82%D1%82">Луиза Олкотт</a>
+          <a href ="https://bungostraydogs.fandom.com/ru/wiki/%D0%AD%D0%B4%D0%B3%D0%B0%D1%80_%D0%90%D0%BB%D0%BB%D0%B0%D0%BD_%D0%9F%D0%BE">Эдгар По</a>
+        </div>
+        <div class="manga_hidden">
+          <a href="https://mangalib.me/bungou-stray-dogs/v1/c1?ui=4662612&page=1">1 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v2/c5?ui=4662612&page=1">2 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v3/c9?ui=4662612&page=1">3 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v4/c13?ui=4662612&page=1">4 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v5/c17?ui=4662612&page=1">5 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v6/c21?ui=4662612&page=1">6 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v7/c25?ui=4662612&page=1">7 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v8/c30?ui=4662612&page=1">8 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v9/c34?ui=4662612&page=1">9 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v10/c38?ui=4662612&page=1">10 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v11/c43?ui=4662612&page=1">11 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v12/c47.5?ui=4662612&page=1">12 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v13/c51?ui=4662612&page=1">13 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v14/c55?ui=4662612&page=1">14 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v15/c59?ui=4662612&page=1">15 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v16/c64?ui=4662612&page=1">16 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v17/c70?ui=4662612&page=1">17 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v18/c74?ui=4662612&page=1">18 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v19/c79?ui=4662612&page=1">19 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v20/c84?ui=4662612&page=1">20 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v21/c89?ui=4662612&page=1">21 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v22/c94?ui=4662612&page=1">22 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v23/c100?ui=4662612&page=1">23 том</a>
+          <a href="https://mangalib.me/bungou-stray-dogs/v24/c105?ui=4662612&page=1">24 том</a>
+     </div>
+      <div class ="bio_hidden">
+          <a href="https://chitanka.info/person/atsushi-nakadzhima"> Ацуши Накаджима</a>
+          <a href="https://biographe.ru/znamenitosti/dadzai-osamu/">Осаму Дазай</a>
+          <a href="https://www.livelib.ru/author/357744-doppo-kunikida">Доппо Куникида</a>
+          <a href="https://www.livelib.ru/author/81455-edogava-rampo">Рампо Эдогава</a>
+          <a href="https://www.peoples.ru/art/literature/poetry/oldage/akiko_yosano/">Акико Йосано</a>
+          <a href="https://www.livelib.ru/author/9239-dzyunitiro-tanidzaki">Джуничиро Танизаки</a>
+          <a href="https://www.livelib.ru/author/307424-kendzi-miyadzava">Кенджи Миядзава</a>
+          <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B4%D0%B7%D1%83%D0%BC%D0%B8,_%D0%9A%D1%91%D0%BA%D0%B0">Кёка Изуми</a>
+          <a href="https://www.peoples.ru/art/literature/prose/publicist/yukichi_fukuzawa/">Юкичи Фукудзава</a>
+          <a href="https://ru.wikibrief.org/wiki/Katai_Tayama">Катай Таяма</a>
+          <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%B8_%D0%9E%D0%B3%D0%B0%D0%B9">Огай Мори</a>
+          <a href="https://www.livelib.ru/author/971529-tyuya-nakahara">Чуя Накахара</a>
+          <a href="https://wp.wiki-wiki.ru/wp/index.php/%D0%9E%D0%B4%D0%B7%D0%B0%D0%BA%D0%B8,_%D0%9A%D0%BE%D1%91">Коё Озаки</a>
+          <a href="https://www.livelib.ru/author/30686-ryunoske-akutagava">Рюноске Акутагава</a>
+          <a href="https://www.livelib.ru/author/116807-itijo-higuti">Ичиё Хигучи</a>
+          <a href="https://ru.frwiki.wiki/wiki/Hirotsu_Ryur%C5%8D">Рьюро Хироцу</a>
+          <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B8%D1%85%D0%B0%D1%80%D0%B0,_%D0%9C%D0%B8%D1%82%D0%B8%D0%B4%D0%B7%D0%BE">Мичизу Тачихара</a>
+          <a href="https://ru.frwiki.wiki/wiki/Sakunosuke_Oda">Сакуноске Ода</a>
+          <a href="https://www.livelib.ru/author/1089542-kyusaku-yumeno">Кюсаку Юмено</a>
+          <a href="https://www.livelib.ru/author/580059-sakaguti-ango">Анго Сакагучи</a>
+          <a href="https://www.litres.ru/author/fedor-dostoevskiy/ob-avtore/">Фёдор Достоевский</a>
+          <a href="https://ria.ru/20130606/941314088.html">Александр Пушкин</a>
+          <a href="">Николай Гоголь</a>
+          <a href="http://annensky.lib.ru/names/syromyat/syromyatnikov.htm">Сигма</a>
+          <a href="https://www.litres.ru/author/ivan-goncharov/ob-avtore/">Иван Гончаров</a>
+          <a href="https://ria.ru/20160924/1477599630.html">Фрэнсис Фицджеральд</a>
+          <a href="https://www.litres.ru/author/luiza-mey-olkott/ob-avtore/">Луиза Олкотт</a>
+          <a href="https://fantlab.ru/autor18">Эдгар По</a>
+      </div>
+      <div class="anime_hidden">
+          <a href="https://otaku.fandom.com/ru/wiki/Shaman_King">Шаман Кинг</a>
+          <a href="https://ru.wikipedia.org/wiki/Servamp#:~:text=6%20%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8-,%D0%A1%D1%8E%D0%B6%D0%B5%D1%82,%D0%BE%D1%82%20%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%22%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9%22)%20.">Сервамп</a>
+          <a href="https://ru.wikipedia.org/wiki/Soul_Eater">Пожиратель душ</a>
+          <a href="https://otaku.fandom.com/ru/wiki/Black_Butler">Темный дворецкий</a>
+          <a href="https://dgrayman.fandom.com/ru/wiki/D.Gray-man#:~:text=Gray%2Dman%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D1%8F%D1%82%20%D0%B2%20%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9,%D1%83%D0%BC%D0%B5%D1%80%D1%88%D0%B5%D0%B3%D0%BE%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0%20%D0%B8%20%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D1%82%D0%B5%D0%BB%D0%BE.">Ди Грэй-мен</a>
+          <a href="https://nanatsunotaizai.fandom.com/ru/wiki/%D0%90%D0%BD%D0%B8%D0%BC%D0%B5">Семь смертных грехов</a>
+          <a href="https://blackclover.fandom.com/ru/wiki/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%9A%D0%BB%D0%B5%D0%B2%D0%B5%D1%80_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F)#:~:text=%D0%A1%D1%8E%D0%B6%D0%B5%D1%82,%D1%81%D0%B8%D0%BB%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D1%82%D0%B0%D0%BB%D0%B0%D0%BD%D1%82%D0%BE%D0%BC%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%D1%85.">Черный клевер</a>
+          <a href="https://ru.wikipedia.org/wiki/Ansatsu_Kyoushitsu">Класс убийц</a>
+          <a href="https://anime-characters-fight.fandom.com/ru/wiki/Ajin">Полулюди</a>
+        </div>
+   </div>
+  <div class ="description">
+    <h2>Сюжет и история создания</h2>
+    <p>«Проза бродячих псов» (яп. 文豪ストレイドッグス Бунго: Суторэй Доггусу, букв. «Бродячие псы литературы») — манга, написанная Кафкой Асагири и проиллюстрированная Санго Харукавой. Выпускается в журнале Young Ace с 2012 года. Сюжет в основном повествует о членах «Вооружённого детективного агентства» и их повседневной жизни.
+
+Аниме-адаптация была разделена на две части: премьера первой состоялась 7 апреля 2016 года, а второй — 6 октября 2016 года. Премьера третьего сезона прошла с апреля по июнь 2019 года. В начале 2023 года также вышел четвёртый сезон. Также на основе манги был выпущен полнометражный анимационный фильм, получивший подзаголовок в мировом прокате «Dead Apple» (яп. デッドアップル букв. «Мертвое яблоко»). Его премьера состоялась 3 марта 2018 года. В России фильм вышел в прокат 1 ноября 2018 года под названием «Проза бродячих псов. Фильм». Аниме-сериал на основе спин-офф манги Bungo Stray Dogs Wan! транслировался с января по март 2021 года. В марте 2020 года был анонсирован игровой фильм Bungo Stray Dogs The Movie: Beast.</p>
+    <p>История рассказывает о людях, одарённых сверхспособностями и использующих эти силы для различных целей, в том числе для ведения бизнеса, решения загадок и выполнения миссий. Сюжет в основном повествует о членах «Вооружённого детективного агентства» и их повседневной жизни, а также об их друзьях из «Портовой мафии», «Гильдии» и «Крысы мёртвого дома».
+
+Большинство персонажей носят имена известных писателей и поэтов XIX—XX веков, в том числе Рюноскэ Акутагава, Юкито Аяцудзи, Осаму Дадзай, Фёдор Достоевский, Накахара Тюя, Рампо Эдогава, Марк Твен, Нацухико Кёгоку, Кэндзи Миядзава, Доппо Куникида, Акико Ёсано, Николай Гоголь, Мори Огай.</p>
+    <p class="bot"> Cсылка на бота: <a href="https://t.me/vdapm_bot">https://t.me/vdapm_bot</a></p>
+    </div>
+  </body>
+</html>
