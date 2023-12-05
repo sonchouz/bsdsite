@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-image: url(https://cojo.ru/wp-content/uploads/2022/12/anime-brodiachie-psy-literaturnye-genii-1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .main_buttons{
+    margin-top: 10px;
+    align-items: center;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index:1;
+  }
+  
+  .top{
+    margin-right: 4%;
+    width: 80%;
+    display:flex;
+    position: absolute;
+    background-color:#FFDEAD;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  .top a{
+    color: #696969;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    font-family: Roboto;
+   }
+  .top a:hover{
+    background-color: #DAA520;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+  }
+  .info{
+    width: 80%;
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 1%;
+  }
+  .seasons_hidden{
+    display: none;
+    flex-direction: column;
+    height: 90px;
+    width: 16%;
+    margin-top: -1.2%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #F0E68C;
+    position: fixed;
+  }
+  .seasons_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 15px;
+  }
+  .seasons_hidden a:hover{
+    background-color:#EEE8AA;
+    text-decoration: underline;
+  }
+  .characters_hidden{
+    display: none;
+    flex-direction: column;
+    margin-left: 16%;
+    width: 16%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #F0E68C;
+    position: fixed;
+    margin-top: -1.2%;
+  }
+  .characters_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .characters_hidden a:hover{
+    background-color:#EEE8AA;
+    text-decoration: underline;
+  }
+  .manga_hidden{
+    display: none;
+    flex-direction: column;
+    margin-left: 32%;
+    width: 16%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #F0E68C;
+    position: fixed;
+    margin-top: -1.2%;
+  }
+  .manga_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .manga_hidden a:hover{
+    background-color:#EEE8AA;
+    text-decoration: underline;
+  }
+  .manga_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .bio_hidden{
+    display: none;
+    flex-direction: column;
+    margin-left: 48%;
+    width: 16%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #F0E68C;
+    position: fixed;
+    margin-top: -1.2%;
+  }
+  .bio_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .bio_hidden a:hover{
+    background-color:#EEE8AA;
+    text-decoration: underline;
+  }
+  .anime_hidden{
+    display: none;
+    flex-direction: column;
+    margin-left: 64%;
+    width: 16%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #F0E68C;
+    position: fixed;
+    margin-top: -1.2%;
+  }
+  .anime_hidden a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .anime_hidden a:hover{
+    background-color:#EEE8AA;
+    text-decoration: underline;
+  }
+  .description{
+    display: inline-block;
+    margin-top: -2px;
+    margin-left: 8%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    color: #778899;
+    font-family: Roboto;
+    font-size: 20px;
+    background: white;
+    position: fixed;
+    z-index: -1;
+  }
+  .description h2{
+    padding-top: 10px;
+  }
+  .bot{
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  
